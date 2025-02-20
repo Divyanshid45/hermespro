@@ -178,6 +178,69 @@
                 width: 50%;
             }
         }
+@media screen and (max-width: 600px) {
+            header.h1{
+                font-size: 24px;
+                line-height: 50px;
+            }
+            .header {
+                padding: 10px;
+            }
+
+            .nav a {
+                margin: 5px auto;
+            }
+
+            .buttons {
+                display: flex;
+            }
+
+            .hero {
+            position: relative;
+            overflow: hidden;
+            height: auto;
+            background: #ddd;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+
+        .hero img.active {
+            display: block;
+        }
+        .buttons button {
+            background: rgba(0, 0, 0, 0.5);
+            color: rgb(247, 247, 247);
+            border: none;
+            padding: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+            .footer-container {
+                flex-direction: column;
+            }
+
+            .contact-form,
+            .sitemap,
+            .contact-info {
+                margin: 20px 0;
+            }
+            
+        }
     </style>
 </head>
 
