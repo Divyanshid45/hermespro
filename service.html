@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Hermes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: #85c7d7;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header h1 {
+            margin: 0 auto;
+            font-size: 36px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 5px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background: #4881b6;
+        }
+
+        .nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .service {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        .service img {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .service div {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #85c7d7;
+            color: rgb(2, 4, 61);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #010101;
+            text-decoration: none;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background: #000000;
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background: #7e7979b1;
+        }
+
+        .copyright {
+            width: 100%;
+            text-align: center;
+            margin: 20px;
+            font-size: 14px;
+        }
+
+        @media (min-width: 768px) {
+            .service:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+
+            .service img {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+
+            .service div {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header">
+            <a href="/index.html"><img src="logo.jpg" alt="Company Logo" class="logo"></a>
+            <h1>Kaziranga National Park</h1>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Services</h2>
+        <div class="service">
+            <img src="hotel_booking.jpg" alt="Hotel Booking">
+            <div>
+                <h3>Hotel Booking</h3>
+                <p>Find and book the best hotels at affordable prices along with the safari.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="car_rental.jpg" alt="Car Rental">
+            <div>
+                <h3>Car on Rent</h3>
+                <p>Rent a car with ease and travel anywhere you want.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="flight_booking.jpg" alt="Flight Booking">
+            <div>
+                <h3>Flight Booking</h3>
+                <p>Book flights to your favorite destinations at the best prices.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <section class="contact-form">
+                <h2>Contact</h2>
+                <form id="footerForm" onsubmit="return validateForm()">
+                    <input type="text" id="footerName" placeholder="Full Name" required>
+                    <input type="email" id="footerEmail" placeholder="Email" required>
+                    <textarea id="footerMessage" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+            <section class="sitemap">
+                <h2>Sitemap</h2>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </section>
+            <section class="contact-info">
+
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:hermes-project@gmail.com">hermes-project@gmail.com</a></p>
+                <p>Phone: <a href="tel:+917204756603">+917204756603</a></p>
+            </section>
+        </div>
+    </footer>
+    <div class="copyright">
+        &copy; 2025 Hermes. All rights reserved.
+    </div>
+    <script>
+        document.getElementById("header").innerHTML = `
+<div class="header">
+<a href="/index.html"><img src="company_logo.jpg" alt="Company Logo" class="logo"></a>
+<h1>Hermes- Tours and travels</h1>
+</div>
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</div>
+        `;
+    </script>
+</body>
+
+</html>
