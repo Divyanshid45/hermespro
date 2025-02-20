@@ -16,8 +16,6 @@ header h1 {
     font-size: 36px;
 }
 
-/* .nav { display: flex; justify-content: center; padding: 10px; background: #444; } */
-/*.nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; } */
 .hero {
     position: relative;
     overflow: hidden;
@@ -93,25 +91,7 @@ header h1 {
     margin: 10px;
 }
 
-/*.footer {
-    background: #85c7d7;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
 
-.footer div {
-    flex: 1;
-    min-width: 250px;
-    text-align: center;
-}
-
-.footer a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-} */
 
 footer {
     background-color: #85c7d7;
@@ -164,24 +144,7 @@ nav ul li a {
     }
 }
 
-/* body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        .header { background: #333; color: white; text-align: center; padding: 20px; }
-        .header h1 { margin: 0; font-size: 36px; }
-        .nav { display: flex; justify-content: center; padding: 10px; background: #444; }
-        .nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        .section { padding: 50px; text-align: center; }
-        .service { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; margin-bottom: 50px; }
-        .service img { width: 100%; max-width: 400px; margin-bottom: 20px; }
-        .service div { width: 100%; max-width: 600px; padding: 20px; }
-        .footer { background: #222; color: white; display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; text-align: center; }
-        .footer div { flex: 1; min-width: 250px; }
-        .footer a { color: white; text-decoration: none; }
-       
-        @media (min-width: 768px) {
-            .service:nth-child(even) { flex-direction: row-reverse; }
-            .service img { margin-right: 20px; margin-bottom: 0; }
-            .service div { width: 50%; }
-        } */
+
 
  .section {
     padding: 50px;
@@ -197,28 +160,7 @@ nav ul li a {
     width: 150px;
     height: auto;
 }
- 
-/*
 
-.service {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-
-.service img {
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 20px;
-}
-
-.service div {
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-} */
 
 .service {
 
@@ -348,47 +290,10 @@ nav ul li a {
 
 
 
-/* .service-item {
-    display: flex;
-    margin-bottom: 20px;
-}
- 
-.service-item-reverse {
-    flex-direction: row-reverse;
-}
- 
-.service-image {
-    flex: 1;
-}
- 
-.service-description {
-    flex: 2;
-    padding-left: 20px;
-}
- 
-.service-item-reverse .service-description {
-    padding-left: 0;
-    padding-right: 20px;
-} */
 
 /* contact us */
 
-/*body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        .header { background: #333; color: white; text-align: center; padding: 20px; }
-        .header h1 { margin: 0; font-size: 36px; }
-        .nav { display: flex; justify-content: center; padding: 10px; background: #444; }
-        .nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 18px; }
-        .section { padding: 50px; display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; }
-        .contact-info { text-align: left; max-width: 400px; }
-        .contact-info p { margin: 10px 0; }
-        .contact-form { max-width: 400px; text-align: left; }
-        .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; }
-        .contact-form button { background: #333; color: white; border: none; padding: 10px; cursor: pointer; }
-        .contact-form button:hover { background: #555; }
-        .map { width: 400px; height: 300px; }
-        .footer { background: #222; color: white; display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; text-align: center; }
-        .footer div { flex: 1; min-width: 250px; }
-        .footer a { color: white; text-decoration: none; }*/
+
 .section {
     padding: 50px;
     display: flex;
@@ -431,7 +336,3 @@ nav ul li a {
     background: #555;
 }
 
-/*.map {
-    width: 400px;
-    height: 300px;
-}*/
